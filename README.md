@@ -1,16 +1,36 @@
-## Hi there 👋
+<h4 align="Center"> 👋 </h2>
 
-<!--
-**SidhuK/SidhuK** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```R
 
-Here are some ideas to get you started:
+SidhuK <- function(Karat_Sidhu) {
+    username <- "SidhuK"
+    name <- "Karat Sidhu"
+    website <- "https://karat.science/"
+    twitter <- "https://x.com/@karat_sidhu"
+    linkedin <- "https://linkedin.com/in/karatsidhu"
+    code <- c(
+        main_coding_languages = c("R", "Python"),
+        tools = c("TidyVerse", "Quarto", "RMarkdown", "Git",
+                "GitHub", "Pandas", "Jupyter","Numpy", "Matplotlib", "Seaborn")
+    )
+    scientific_skills <- c(
+        research = c("Metabolomics", "Proteomics","Mass Spectrometer",
+                    "LC/MS/MS", "Cell_Biology", "Small Molecule Analysis"),
+        equipment = c("Q-TOFs", "UPLC", "HPLC", "QqQ"),
+        academic = c("Biotechnology", "Analytical Chemistry", "Biochemistry")
+    )
+    personal_interests <- c("Reading", "Painting", "Running", "Skiing")
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    Karat_Sidhu <- list(username, name, website,
+                        twitter, linkedin, data.frame(code),
+                        data.frame(scientific_skills), data.frame(personal_interests))
+
+    return(Karat_Sidhu)
+}
+
+SidhuK(Karat_Sidhu)
+
+
+```
+
+<h4 align="center">✌️</h4>
